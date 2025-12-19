@@ -1,72 +1,43 @@
 body {
-  margin: 0;
-  font-family: sans-serif;
-  direction: rtl;
-  background-color: #f4f4f4;
-  color: #333;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-nav {
-  background-color: #222;
-  position: fixed;
-  top: 0;
-  width: 100%;
+header {
+    background: #4a90e2;
+    color: white;
+    padding: 40px 20px;
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
 }
 
 nav ul li {
-  margin: 0 15px;
+    display: inline-block;
+    margin: 0 15px;
 }
 
 nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.hero {
-  margin-top: 80px;
-  padding: 100px 20px;
-  text-align: center;
-  background-color: #333;
-  color: white;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 
 section {
-  padding: 60px 20px;
-  text-align: center;
-}
-
-.skills-list {
-  list-style: none;
-  padding: 0;
-}
-
-.skills-list li {
-  background: #ddd;
-  margin: 10px auto;
-  width: 200px;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-.project {
-  background: white;
-  padding: 20px;
-  margin: 20px auto;
-  width: 80%;
-  border-radius: 8px;
+    margin: 40px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
 }
 
 footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 15px;
+    padding: 20px;
+    background: #333;
+    color: white;
 }
